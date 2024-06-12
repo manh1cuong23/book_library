@@ -188,7 +188,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<div class="tg-innerbannercontent">
-							<h1>Chi tiết sách</h1>
+							<h1>Mượn sách</h1>
 							<ol class="tg-breadcrumb">
 								<li><a href="javascript:void(0);">Trang chủ</a></li>
 								<li><a href="javascript:void(0);">Sách</a></li>
@@ -228,15 +228,9 @@
 														<ul class="tg-delevrystock">
 															<li><i class="icon-store"></i><span>Trạng thái: <em>Còn hàng</em></span></li>
 														</ul>
-														<div class="tg-quantityholder">
-															<em class="minus">-</em>
-															<input type="text" class="result" value="0" id="quantity1" name="quantity">
-															<em class="plus">+</em>
-														</div>
-														<a class="tg-btn tg-active tg-btn-lg" href="javascript:void(0);">Mượn sách hàng</a>
-														<a class="tg-btnaddtowishlist" href="/borowBook.html">
-															<span>Mượn sách</span>
-														</a>
+														
+														<a class="tg-btn tg-active tg-btn-lg" href="javascript:void(0);"> Mượn sách</a>
+														
 													</div>
 												</div>
 											</div>
@@ -252,102 +246,44 @@
 													<span class="tg-bookwriter"><a href="javascript:void(0);">Susan Sontag</a></span>
 													<span class="tg-stars"><span></span></span>
 													<span class="tg-addreviews"><a href="javascript:void(0);">Đánh giá</a></span>
-													<div class="tg-share">
-														<span>Chia sẻ</span>
-														<ul class="tg-socialicons">
-															<li class="tg-facebook"><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
-															<li class="tg-twitter"><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
-															<li class="tg-linkedin"><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
-															<li class="tg-googleplus"><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
-															<li class="tg-rss"><a href="javascript:void(0);"><i class="fa fa-rss"></i></a></li>
-														</ul>
+													<div class="tg-sectionhead mt-4" style="margin-top: 20px;">
+														<h2>Thông tin chi tiết đơn mượn</h2>
 													</div>
-													<div class="tg-description">
-														<p>On Photography là một tuyển tập các bài tiểu luận năm 1977 của nhà văn người Mỹ Susan Sontag. Cuốn sách có nguồn gốc từ một loạt bài tiểu luận Sontag xuất bản trên Tạp chí Sách New York từ năm 1973 đến năm 1977.</p>
-														<p>Trong On Photography, Sontag xem xét lịch sử và vai trò đương đại của nhiếp ảnh trong xã hội. Cô đối chiếu tác phẩm của Diane Arbus với nhiếp ảnh tài liệu thời kỳ Suy thoái và khám phá sự phát triển của nhiếp ảnh Mỹ từ những quan niệm duy tâm của Walt Whitman đến chủ nghĩa hoài nghi của những năm 1970.... <a href="javascript:void(0);">More</a></p>
-													</div>
-													<div class="tg-sectionhead">
-														<h2>Thông tin chi tiết sản phẩm</h2>
-													</div>
-													<ul class="tg-productinfo">
-														<li><span>Định dạng:</span><span>Bìa cứng</span></li>
-														<li><span>Trang:</span><span>528 trang</span></li>
-														<li><span>Kích thước:</span><span>153 x 234 x 43mm | 758g</span></li>
-														<li><span>Ngày xuất bản:</span><span>Ngày 27 tháng 6 năm 2017</span></li>
-														<li><span>Nhà xuất bản:</span><span>Sunshine Orlando</span></li>
-														<li><span>Ngôn ngữ:</span><span>Tiếng Anh</span></li>
-														<li><span>Ghi chú:</span><span>Không có</span></li>
-														<li><span>Định dạng khác:</span><span>CD-Audio, E-Book</span></li>
-													</ul>
-													<!-- <div class="tg-alsoavailable">
-														<figure>
-															<img src="images/img-02.jpg" alt="image description">
-															<figcaption>
-																<h3>Cũng có sẵn trong:</h3>
-																<ul>
-																	<li><span>CD-Audio 200.000đ</span></li>
-																	<li><span>E-Book 200.000đ</span></li>
-																</ul>
-															</figcaption>
-														</figure>
-													</div> -->
+													<form>
+                                                        <div class="form-row">
+                                                          <div class="form-group ">
+                                                            <label for="inputEmail4">Họ và tên</label>
+                                                            <input type="email" class="form-control" id="inputEmail4" placeholder="Võ Mạnh Cường">
+                                                          </div>
+                                                          <div class="form-group">
+                                                            <label for="inputPassword4">Mã sinh viên</label>
+                                                            <input type="text" class="form-control" id="inputPassword4" placeholder="2021603397">
+                                                          </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                          <label for="inputAddress">Lớp</label>
+                                                          <input type="text" class="form-control" id="inputAddress" placeholder="CNTT04">
+                                                        </div>
+                                                        <div class="form-group">
+                                                          <label for="inputAddress2">Tên sách</label>
+                                                          <input type="text" class="form-control" id="inputAddress2" placeholder="On Photography">
+                                                        </div>
+                                                          <div class="form-group ">
+                                                            <label for="inputCity">Số lượng</label>
+                                                            <input type="text" class="form-control" id="1" placeholder="1">
+                                                          </div>
+                                                        
+                                                          <div class="form-group">
+                                                            <label for="inputZip">Ngày trả</label>
+                                                            <input type="text" class="form-control" id="inputZip" placeholder="20/6/2024">
+                                                          </div>
+                                                      
+                                                        <button type="submit" class="btn btn-primary">Xác nhận mượn</button>
+                                                      </form>
 												</div>
 											</div>
-											<div class="tg-productdescription">
-												<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-													<div class="tg-sectionhead">
-														<h2>Mô tả Sản phẩm</h2>
-													</div>
-													<ul class="tg-themetabs" role="tablist">
-														<li role="presentation" class="active"><a href="#description" data-toggle="tab">Miêu tả</a></li>
-														<li role="presentation"><a href="#review" data-toggle="tab">Đánh giá</a></li>
-													</ul>
-													<div class="tg-tab-content tab-content">
-														<div role="tabpanel" class="tg-tab-pane tab-pane active" id="description">
-															<div class="tg-description">
-																<p>Trong On Photography xem xét lịch sử và vai trò đương đại của nhiếp ảnh trong xã hội. Cô đối chiếu tác phẩm của Diane Arbus với nhiếp ảnh tài liệu thời kỳ Suy thoái và khám phá sự phát triển của nhiếp ảnh Mỹ từ những quan niệm duy tâm của Walt Whitman đến chủ nghĩa hoài nghi của những năm 1970. Sontag lập luận rằng nhiếp ảnh thúc đẩy mối quan hệ mãn nhãn với thế giới và có thể làm giảm ý nghĩa của các sự kiện. Cuốn sách thảo luận về mối quan hệ giữa nhiếp ảnh và chính trị cũng như sự căng thẳng giữa ghi hình và can thiệp. On Photography đã nhận được cả sự hoan nghênh và chỉ trích, trong đó một số nhà phê bình đặt câu hỏi về tính nghiêm ngặt về mặt học thuật của nó.</p>
-																
-																<ul class="tg-liststyle">
-																	<li><span>Trong cuốn sách, Sontag bày tỏ quan điểm của mình về lịch sử và vai trò ngày nay của nhiếp ảnh trong xã hội kể từ những năm 1970. Sontag thảo luận về nhiều ví dụ về nhiếp ảnh hiện đại. Trong số này, cô đối chiếu tác phẩm của Diane Arbus với tác phẩm chụp ảnh tài liệu về thời kỳ Suy thoái do Cơ quan Quản lý An ninh Trang trại ủy quyền.</span></li>
-																	<li><span>Sontag lập luận rằng sự phổ biến của các hình ảnh nhiếp ảnh đã bắt đầu hình thành trong con người một "mối quan hệ mãn nhãn với thế giới."[1] Một trong những hậu quả của việc thực hành nhiếp ảnh này là ý nghĩa của tất cả các sự kiện đều được san bằng và bình đẳng.</span></li>
-																</ul>
-															</div>
-														</div>
-														<div role="tabpanel" class="tg-tab-pane tab-pane" id="review">
-															<div class="tg-description">
-																<p>Trong On Photography xem xét lịch sử và vai trò đương đại của nhiếp ảnh trong xã hội. Cô đối chiếu tác phẩm của Diane Arbus với nhiếp ảnh tài liệu thời kỳ Suy thoái và khám phá sự phát triển của nhiếp ảnh Mỹ từ những quan niệm duy tâm của Walt Whitman đến chủ nghĩa hoài nghi của những năm 1970. Sontag lập luận rằng nhiếp ảnh thúc đẩy mối quan hệ mãn nhãn với thế giới và có thể làm giảm ý nghĩa của các sự kiện. Cuốn sách thảo luận về mối quan hệ giữa nhiếp ảnh và chính trị cũng như sự căng thẳng giữa ghi hình và can thiệp. On Photography đã nhận được cả sự hoan nghênh và chỉ trích, trong đó một số nhà phê bình đặt câu hỏi về tính nghiêm ngặt về mặt học thuật của nó.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="tg-aboutauthor">
-												<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-													<div class="tg-sectionhead">
-														<h2>Thông tin tác giả</h2>
-													</div>
-													<div class="tg-authorbox">
-														<figure class="tg-authorimg">
-															<img style="width: 100px;height: 100px;object-fit: cover;" src="images/author/imag-24.jpg" alt="image description">
-														</figure>
-														<div class="tg-authorinfo">
-															<div class="tg-authorhead">
-																<div class="tg-leftarea">
-																	<div class="tg-authorname">
-																		<h2>Susan Sontag</h2>
-																		<span>Ngày sinh: 16/1/1933</span>
-																	</div>
-																</div>
-																
-															</div>
-															<div class="tg-description">
-																<p>Susan Lee Sontag là một nhà văn, nhà phê bình và trí thức đại chúng người Mỹ. Cô chủ yếu viết tiểu luận nhưng cũng xuất bản tiểu thuyết; bà xuất bản tác phẩm lớn đầu tiên của mình, tiểu luận "Ghi chú về 'Trại' ", vào năm 1964. Các tác phẩm nổi tiếng nhất của bà bao gồm các tác phẩm phê bình Chống lại sự diễn giải (1966), Về Nhiếp ảnh (1977), Bệnh tật như phép ẩn dụ (1978) và Liên quan đến Nỗi đau của người khác cũng như các tác phẩm hư cấu The Way We Live Now (1986), The Volcano Lover (1992) và In America (1999).</p>
-															</div>
-															<a class="tg-btn tg-active" href="javascript:void(0);">Xem tất cả</a>
-														</div>
-													</div>
-												</div>
-											</div>
+											
+											
 	
 										</div>
 									</div>
@@ -383,59 +319,7 @@
 											</ul>
 										</div>
 									</div>
-									<div class="tg-widget tg-widgettrending">
-										<div class="tg-widgettitle">
-											<h3>Tin tức</h3>
-										</div>
-										<div class="tg-widgetcontent">
-											<ul>
-												<li>
-													<article class="tg-post">
-														<figure><a href="javascript:void(0);"><img src="images/products/img-04.jpg" alt="image description"></a></figure>
-														<div class="tg-postcontent">
-															<div class="tg-posttitle">
-																<h3><a href="./productdetail.html">Where The Wild Things Are</a></h3>
-															</div>
-															<span class="tg-bookwriter"><a href="javascript:void(0);">Phùng Nguyễn Huy</a></span>
-														</div>
-													</article>
-												</li>
-												<li>
-													<article class="tg-post">
-														<figure><a href="javascript:void(0);"><img src="images/products/img-05.jpg" alt="image description"></a></figure>
-														<div class="tg-postcontent">
-															<div class="tg-posttitle">
-																<h3><a href="./productdetail.html">Where The Wild Things Are</a></h3>
-															</div>
-															<span class="tg-bookwriter"><a href="javascript:void(0);">Nguyễn Đức Mạnh</a></span>
-														</div>
-													</article>
-												</li>
-												<li>
-													<article class="tg-post">
-														<figure><a href="javascript:void(0);"><img src="images/products/img-06.jpg" alt="image description"></a></figure>
-														<div class="tg-postcontent">
-															<div class="tg-posttitle">
-																<h3><a href="./productdetail.html">Where The Wild Things Are</a></h3>
-															</div>
-															<span class="tg-bookwriter"><a href="javascript:void(0);">Võ Mạnh Cường</a></span>
-														</div>
-													</article>
-												</li>
-												<li>
-													<article class="tg-post">
-														<figure><a href="javascript:void(0);"><img src="images/products/img-07.jpg" alt="image description"></a></figure>
-														<div class="tg-postcontent">
-															<div class="tg-posttitle">
-																<h3><a href="./productdetail.html">Where The Wild Things Are</a></h3>
-															</div>
-															<span class="tg-bookwriter"><a href="javascript:void(0);">Nguyễn Trung Trường</a></span>
-														</div>
-													</article>
-												</li>
-											</ul>
-										</div>
-									</div>
+								
 									
 									<div class="tg-widget tg-widgetblogers">
 										<div class="tg-widgettitle">

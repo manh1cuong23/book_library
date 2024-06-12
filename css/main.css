@@ -1675,6 +1675,7 @@ li.menu-item-has-mega-menu { position: static; }
 	float: left;
 	overflow: hidden;
 	position: relative;
+	height: 200px;
 }
 .tg-bookimg{
 	width: 100%;
@@ -1745,8 +1746,10 @@ li.menu-item-has-mega-menu { position: static; }
 	width: 100%;
 	height: auto;
 	display: block;
+	height: 200px;
+	object-fit: cover;
 }
-.tg-postbook:hover .tg-featureimg { padding: 9px 13px 9px 0; }
+.tg-postbook:hover .tg-featureimg { padding: 0 13px 0 0; }
 .tg-postbook:hover .tg-bookimg {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
@@ -1842,6 +1845,8 @@ li.menu-item-has-mega-menu { position: static; }
 	width: 100%;
 	float: left;
 	padding: 0 0 20px;
+	height: 46px;
+	overflow: hidden;
 }
 .tg-booktitle h3 {
 	margin: 0;
@@ -1855,6 +1860,7 @@ li.menu-item-has-mega-menu { position: static; }
 	font-size: 13px;
 	line-height: 13px;
 	padding: 0 0 6px;
+	height: 40PX;
 }
 .tg-bookwriter a {color: #666;}
 .tg-bestsellingbooks .tg-postbookcontent .tg-stars {
@@ -1879,7 +1885,7 @@ li.menu-item-has-mega-menu { position: static; }
 	width: 100%;
 	margin: 20px 0 0;
 }
-.tg-postbook.tg-notag .tg-postbookcontent .tg-btn{margin: 44px 0 0;}
+/* .tg-postbook.tg-notag .tg-postbookcontent .tg-btn{margin: 44px 0 0;} */
 .tg-btnround{
 	color: #666;
 	width: 40px;
@@ -2300,6 +2306,8 @@ li.menu-item-has-mega-menu { position: static; }
 	width: 100%;
 	height: auto;
 	display: block;
+	height: 200px;
+	object-fit: cover;
 }
 .tg-authorcontent{
 	width: 100%;
@@ -2587,6 +2595,11 @@ li.menu-item-has-mega-menu { position: static; }
 .tg-widgetcontent{
 	width: 100%;
 	float: left;
+}
+.imgauth{
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
 }
 .tg-widget ul{
 	width: 100%;
@@ -4141,3 +4154,9 @@ body.tg-comingsoonpage:before{
 body.tg-comingsoonpage .tg-footer{border:0;}
 body.tg-comingsoonpage .tg-footerbar{position:static;}
 .tg-userlogin  figure a img {width: 50px; height: 50px;}
+.logount li{
+	list-style: none;
+	width: 60px;
+	padding: 4px 12px;
+	cursor: pointer;
+}

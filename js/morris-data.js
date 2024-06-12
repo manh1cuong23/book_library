@@ -32,13 +32,13 @@ $(function() {
     Morris.Donut({
         element: 'morris-donut-chart',
         data: [{
-            label: "Download Sales",
+            label: "Người dùng mới",
             value: 12
         }, {
-            label: "In-Store Sales",
+            label: "Sách được mượn",
             value: 30
         }, {
-            label: "Mail-Order Sales",
+            label: "Sách được trả",
             value: 20
         }],
         resize: true
